@@ -1,0 +1,32 @@
+
+package videoclub;
+
+import Objetos.Cliente;
+
+public class VideoClub {
+    
+   
+
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+         Cliente cliente;
+        cliente = new Cliente();
+        
+        cliente.setNombre("michel");
+        cliente.setApellido("vreys");
+        cliente.setDni(Integer.parseInt("3232323") );
+        cliente.setDomicilio("barrio los olivares");
+        cliente.setTelefono(Integer.parseInt("23244"));
+        
+        System.out.println("Clientes:");
+        
+        System.out.println("nombre = "+cliente.getNombre());
+        System.out.println("apellido = "+cliente.getApellido());
+        System.out.println("Dni = "+cliente.getDni());
+        System.out.println("Domicilio = "+cliente.getDomicilio());
+       System.out.println("Telefono = "+cliente.getTelefono());
+    
+}
+}
